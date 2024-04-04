@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/VNDocumentHeader" />
+  <name value="VNDocumentHeader" />
+  <title value="VN Document Header" />
+  <status value="draft" />
+  <description value="This profile defines constraints that represent common administrative and demographic concepts for VN clinical documents' header. Further specification, such as type, are provided in document profiles that conform to this profile." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="cda" />
+    <uri value="http://hl7.org/v3/cda" />
+    <name value="CDA (R2)" />
+  </mapping>
+  <mapping>
+    <identity value="fhirdocumentreference" />
+    <uri value="http://hl7.org/fhir/documentreference" />
+    <name value="FHIR DocumentReference" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Composition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Composition" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Composition.extension">
+      <path value="Composition.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.extension:versionNumber">
+      <path value="Composition.extension" />
+      <sliceName value="versionNumber" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/Extension-VersionNumber" />
+      </type>
+    </element>
+    <element id="Composition.extension:dataEnterer">
+      <path value="Composition.extension" />
+      <sliceName value="dataEnterer" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/Extension-DataEnterer" />
+      </type>
+    </element>
+    <element id="Composition.extension:informant">
+      <path value="Composition.extension" />
+      <sliceName value="informant" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/Extension-Informant" />
+      </type>
+    </element>
+    <element id="Composition.extension:informationRecipient">
+      <path value="Composition.extension" />
+      <sliceName value="informationRecipient" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/Extension-InformationRecipient" />
+      </type>
+    </element>
+    <element id="Composition.extension:participant">
+      <path value="Composition.extension" />
+      <sliceName value="participant" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/Extension-Participant" />
+      </type>
+    </element>
+    <element id="Composition.extension:performer">
+      <path value="Composition.extension" />
+      <sliceName value="performer" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/Extension-Performer" />
+      </type>
+    </element>
+    <element id="Composition.extension:order">
+      <path value="Composition.extension" />
+      <sliceName value="order" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/Extension-Order" />
+      </type>
+    </element>
+    <element id="Composition.identifier">
+      <path value="Composition.identifier" />
+      <min value="1" />
+    </element>
+    <element id="Composition.subject">
+      <path value="Composition.subject" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-patient" />
+      </type>
+    </element>
+    <element id="Composition.encounter">
+      <path value="Composition.encounter" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-encounter" />
+      </type>
+    </element>
+    <element id="Composition.author">
+      <path value="Composition.author" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-practitioner" />
+      </type>
+    </element>
+    <element id="Composition.attester">
+      <path value="Composition.attester" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="mode" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="party.reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.attester:legal_attester">
+      <path value="Composition.attester" />
+      <sliceName value="legal_attester" />
+      <max value="1" />
+    </element>
+    <element id="Composition.attester:legal_attester.party">
+      <path value="Composition.attester.party" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-practitioner" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-provider" />
+      </type>
+    </element>
+    <element id="Composition.attester:professional_attester">
+      <path value="Composition.attester" />
+      <sliceName value="professional_attester" />
+    </element>
+    <element id="Composition.attester:professional_attester.party">
+      <path value="Composition.attester.party" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-practitioner" />
+      </type>
+    </element>
+    <element id="Composition.attester:personal_attester">
+      <path value="Composition.attester" />
+      <sliceName value="personal_attester" />
+    </element>
+    <element id="Composition.attester:personal_attester.party">
+      <path value="Composition.attester.party" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-patient" />
+      </type>
+    </element>
+    <element id="Composition.custodian">
+      <path value="Composition.custodian" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-provider" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

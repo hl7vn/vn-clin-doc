@@ -1,0 +1,22 @@
+{
+ "package-id" : "hl7.fhir.vn.clindoc",
+ "title" : "Bản hướng dẫn thực thi dành cho các tài liệu lâm sàng của Việt Nam (dựa trên phiên bản HL7 FHIR Release 4.0.1)", 
+ "canonical" : "http://fhir.ehealth.gov.vn/clindoc/", 
+ "introduction" : "Vietnam ClinDoc IG Profiles",
+ "list" : [{
+  "version" : "current",
+  "desc" : "Continuous Integration Build (latest in version control)",
+  "path" : ""http://fhir.ehealth.gov.vn/clindoc",
+  "status" : "ci-build",
+  "current" : true'
+ },{
+  "version" : "1.0.0",  
+  "date" : "date", 
+  "desc" : "desc",   
+  "changes" : "link",
+  "path" : "url",   
+  "status" : "status",   
+  "fhirversion" : "4.0.1",
+  "sequence" : "sequence"
+ }]
+}

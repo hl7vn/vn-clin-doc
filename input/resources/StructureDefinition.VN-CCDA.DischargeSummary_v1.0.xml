@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/CCDA-DischargeSummary" />
+  <version value="1.0" />
+  <name value="DischargeSummary" />
+  <title value="VN Document - Discharge Summary" />
+  <status value="draft" />
+  <description value="Discharge Summary profile" />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="cda" />
+    <uri value="http://hl7.org/v3/cda" />
+    <name value="CDA (R2)" />
+  </mapping>
+  <mapping>
+    <identity value="fhirdocumentreference" />
+    <uri value="http://hl7.org/fhir/documentreference" />
+    <name value="FHIR DocumentReference" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Composition" />
+  <baseDefinition value="http://fhir.ehealth.gov.vn/clindoc/StructureDefinition/VNDocumentHeader" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Composition.type">
+      <path value="Composition.type" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.4.1" />
+      </binding>
+    </element>
+    <element id="Composition.section">
+      <path value="Composition.section" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="code" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:allergies_and_intolerances_section">
+      <path value="Composition.section" />
+      <sliceName value="allergies_and_intolerances_section" />
+      <label value="Allergies and Intolerances Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:allergies_and_intolerances_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:allergies_and_intolerances_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="48765-2" />
+        </coding>
+        <text value="Allergies and adverse reactions" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:allergies_and_intolerances_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:allergies_and_intolerances_section.entry">
+      <path value="Composition.section.entry" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_course_section">
+      <path value="Composition.section" />
+      <sliceName value="hospital_course_section" />
+      <label value="Hospital Course Section" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_course_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_course_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="8648-8" />
+          <display value="Hospital course" />
+        </coding>
+        <text value="Hospital course" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_course_section.text">
+      <path value="Composition.section.text" />
+      <label value="This section contains only human readable content" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_diagnosis_section">
+      <path value="Composition.section" />
+      <sliceName value="discharge_diagnosis_section" />
+      <label value="Discharge Diagnosis Section" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_diagnosis_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_diagnosis_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="11535-2" />
+          <display value="Hospital discharge diagnosis" />
+        </coding>
+        <text value="Hospital discharge diagnosis" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_diagnosis_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_diagnosis_section.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:discharge_diagnosis_section.entry:discharge_diagnosis_entry">
+      <path value="Composition.section.entry" />
+      <sliceName value="discharge_diagnosis_entry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-condition-encounter-diagnosis" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:plan_of_treatment_section">
+      <path value="Composition.section" />
+      <sliceName value="plan_of_treatment_section" />
+      <label value="Plan of Treatment Section" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:plan_of_treatment_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:plan_of_treatment_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="18776-5" />
+          <display value="Plan of treatment" />
+        </coding>
+        <text value="Plan of treatment" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:plan_of_treatment_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:plan_of_treatment_section.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:plan_of_treatment_section.entry:sliceEntry">
+      <path value="Composition.section.entry" />
+      <sliceName value="sliceEntry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-service-request" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-medication-request" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_medications_section">
+      <path value="Composition.section" />
+      <sliceName value="discharge_medications_section" />
+      <label value="Discharge Medications Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_medications_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_medications_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="10183-2" />
+          <display value="Hospital discharge medications" />
+        </coding>
+        <text value="Hospital discharge medications" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_medications_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:discharge_medications_section.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:discharge_medications_section.entry:discharge_medications_entry">
+      <path value="Composition.section.entry" />
+      <sliceName value="discharge_medications_entry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-medication-request" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-medication-statement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_diagnosis_section">
+      <path value="Composition.section" />
+      <sliceName value="admission_diagnosis_section" />
+      <label value="Admission Diagnosis Section" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_diagnosis_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_diagnosis_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="46241-6" />
+          <display value="Hospital admission diagnosis" />
+        </coding>
+        <text value="Hospital admission diagnosis" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_diagnosis_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_diagnosis_section.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:admission_diagnosis_section.entry:admission_diagnosis_entry">
+      <path value="Composition.section.entry" />
+      <sliceName value="admission_diagnosis_entry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-condition-encounter-diagnosis" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_medications_section">
+      <path value="Composition.section" />
+      <sliceName value="admission_medications_section" />
+      <label value="Admission Medications Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_medications_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_medications_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="42346-7" />
+          <display value="Medications on admission" />
+        </coding>
+        <text value="Medications on admission" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_medications_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:admission_medications_section.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:admission_medications_section.entry:sliceEntry">
+      <path value="Composition.section.entry" />
+      <sliceName value="sliceEntry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-medication-request" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-medication-statement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:chief_complaint_and_reason_for_visit_section">
+      <path value="Composition.section" />
+      <sliceName value="chief_complaint_and_reason_for_visit_section" />
+      <label value="Chief Complaint and Reason for Visit Section" />
+      <comment value="Chief Complaint and Reason for Visit Section. This section records the patient's chief complaint (the patient's own description) and/or the reason for the patient's visit (the provider's description of the reason for visit)." />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:chief_complaint_and_reason_for_visit_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:chief_complaint_and_reason_for_visit_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="46239-0" />
+          <display value="Chief Complaint and Reason for Visit" />
+        </coding>
+        <text value="Chief Complaint and Reason for Visit" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:chief_complaint_and_reason_for_visit_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:history_of_present_illness_section">
+      <path value="Composition.section" />
+      <sliceName value="history_of_present_illness_section" />
+      <label value="History of Present Illness Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:history_of_present_illness_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:history_of_present_illness_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="10164-2" />
+          <display value="History of Present Illness" />
+        </coding>
+        <text value="History of Present Illness" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:history_of_present_illness_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_consultations_section">
+      <path value="Composition.section" />
+      <sliceName value="hospital_consultations_section" />
+      <label value="Hospital Consultations Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_consultations_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_consultations_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="18841-7" />
+          <display value="Hospital consultations" />
+        </coding>
+        <text value="Hospital consultations" />
+      </fixedCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_consultations_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:family_history_section">
+      <path value="Composition.section" />
+      <sliceName value="family_history_section" />
+      <label value="Family History Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:family_history_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:family_history_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="10157-6" />
+          <display value="History of family member diseases" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:family_history_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:functional_status_section">
+      <path value="Composition.section" />
+      <sliceName value="functional_status_section" />
+      <label value="Functional Status Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:functional_status_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:functional_status_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="47420-5" />
+          <display value="Functional status" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:functional_status_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_instructions_section">
+      <path value="Composition.section" />
+      <sliceName value="hospital_discharge_instructions_section" />
+      <label value="Hospital discharge instructions" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_instructions_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_instructions_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="8653-8" />
+          <display value="Hospital discharge instructions" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_instructions_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_physical_section">
+      <path value="Composition.section" />
+      <sliceName value="hospital_discharge_physical_section" />
+      <label value="Hospital Discharge Physical Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_physical_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_physical_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="10184-0" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_physical_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_physical_section.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:hospital_discharge_physical_section.entry:physicalFindingEntry">
+      <path value="Composition.section.entry" />
+      <sliceName value="physicalFindingEntry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-observation-physicalfindings" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_studies_section">
+      <path value="Composition.section" />
+      <sliceName value="hospital_discharge_studies_section" />
+      <label value="Hospital Discharge Studies Section" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_studies_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_studies_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="11493-4" />
+          <display value="Hospital discharge studies summary" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:hospital_discharge_studies_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:procedures_section">
+      <path value="Composition.section" />
+      <sliceName value="procedures_section" />
+      <label value="Procedures Section" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:procedures_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:procedures_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="47519-4" />
+          <display value="History of Procedures Document" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:procedures_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:procedures_section.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:procedures_section.entry:sliceEntry">
+      <path value="Composition.section.entry" />
+      <sliceName value="sliceEntry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://fhir.ehealth.gov.vn/core/StructureDefinition/vn-core-procedure" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:vital_signs_section">
+      <path value="Composition.section" />
+      <sliceName value="vital_signs_section" />
+      <label value="Vital Signs Section" />
+      <max value="1" />
+    </element>
+    <element id="Composition.section:vital_signs_section.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:vital_signs_section.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="8716-3" />
+          <display value="Vital signs" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:vital_signs_section.text">
+      <path value="Composition.section.text" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:vital_signs_section.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="reference" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:vital_signs_section.entry:sliceEntry">
+      <path value="Composition.section.entry" />
+      <sliceName value="sliceEntry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/vitalsigns" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+  </differential>
+</StructureDefinition>

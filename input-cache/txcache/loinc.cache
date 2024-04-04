@@ -1,0 +1,2115 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "11490-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Physician Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "18842-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "28655-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Attending Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "29761-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Dentistry Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "34105-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "34106-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Physician Hospital Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "34745-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nurse Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "57058-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Deprecated Maternal discharge summary note",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "59258-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Emergency department Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "59259-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Psychiatry Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68558-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Obstetrics and Gynecology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68572-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ophthalmology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68578-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Orthopaedic surgery Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68591-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Plastic surgery Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68612-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Adolescent medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68626-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Allergy and Immunology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68642-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Child and adolescent psychiatry Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68653-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Clinical genetics Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68663-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Developmental-behavioral pediatrics Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68674-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Multi-specialty program Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68688-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Neurological surgery Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68697-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Neurology with special qualifications in child neurology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68709-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pain medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68719-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric cardiology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68733-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric endocrinology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68738-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric gastroenterology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68749-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric hematology-oncology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68768-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric nephrology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68773-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric otolaryngology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68779-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric pulmonology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68795-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric surgery Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68805-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric urology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68815-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatrics Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68823-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatrics Hospital Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68831-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Primary care Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68841-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Speech-language pathology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "68856-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pediatric transplant hepatology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "77409-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Cardiology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "77417-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Critical care medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78263-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Mental health Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78264-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "General medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78418-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Neonatal perinatal medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78419-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nephrology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78420-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Neurology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78421-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Oncology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78585-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Palliative care Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "80811-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Geriatric medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83523-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Cardiology Intensive care unit Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83551-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nurse practitioner Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83712-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Physical medicine and rehab Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83810-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Physician assistant Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83898-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Psychology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83921-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Recreational therapy Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83932-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Research Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83956-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Social worker Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83961-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Social worker Patient's home Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83968-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Social worker Long term care facility Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83993-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Spinal cord injury medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84013-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Surgery Intensive care unit Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84017-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Surgery Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84018-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Surgery Outpatient Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84024-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Team Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84040-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Urology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84132-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Primary care Patient's home Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84139-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hematology+Medical oncology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84179-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Kinesiotherapy Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84248-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nurse Emergency department Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84254-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nurse Hospital Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84257-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nurse Long term care facility Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84262-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nurse Observation unit Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84278-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nutrition and dietetics Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84310-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Vocational rehabilitation Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84321-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Physical therapy Outpatient Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84328-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Physical therapy Hospital Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84331-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Physical therapy Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84367-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Otolaryngology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84393-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Occupational therapy Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85154-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pharmacology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85176-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Custodial care facility Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85192-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Long term care facility Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85200-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Observation unit Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85223-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Case manager Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85240-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Internal medicine Intensive care unit Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85243-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Internal medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85433-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Respiratory therapy Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85434-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Rheumatology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85440-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Vascular surgery Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85442-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hematology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85514-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Bariatric surgery Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85520-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Child and adolescent psychology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85849-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Anesthesiology Recovery room Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85875-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nurse Recovery room Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85878-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Neuropsychology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "87235-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Dialysis Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "87256-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Addiction medicine Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88641-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Community health care Adult day care center Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88645-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Outpatient hospital Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88693-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Patient's home Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "89214-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Obstetrics Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "89218-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Gynecology Discharge summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "48765-2"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Allergies and adverse reactions Document",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8648-8",
+  "display" : "Hospital course"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital course Narrative",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "11535-2",
+  "display" : "Hospital discharge diagnosis"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital discharge Dx Narrative",
+  "severity" : "warning",
+  "error" : "The display \"Hospital discharge diagnosis\" is not a valid display for the code {http://loinc.org}11535-2 - should be one of ['Hospital discharge Dx Narrative', 'Hospital discharge Dx', 'Dx 允许...离开(医院、军队)' (zh-CN), '(从监狱)释放 医疗服务对象' (zh-CN), '客户' (zh-CN), '病人' (zh-CN), '病患' (zh-CN), '病号' (zh-CN), '超系统 - 病人 印象是一种诊断陈述，始终是对其他某种观察指标的解释或抽象（一系列检验项目结果、一幅图像或者整个某位病人），而且几乎总是由某位专业人员产生。' (zh-CN), '检查印象' (zh-CN), '检查印象/解释' (zh-CN), '检查的印象/解释' (zh-CN), '检查解释' (zh-CN), '解释' (zh-CN), '阐释 历史纪录与体格检查 历史纪录与体格检查.历史记录' (zh-CN), '历史纪录与体格检查.历史记录类' (zh-CN), '历史纪录与体格检查.历史记录类别' (zh-CN), '历史纪录与体格检查.病史' (zh-CN), '历史纪录与体格检查.病史类' (zh-CN), '历史纪录与体格检查.病史类别' (zh-CN), '历史纪录与体格检查.病史记录' (zh-CN), '历史纪录与体格检查.病史记录类' (zh-CN), '历史纪录与体格检查.病史记录类别' (zh-CN), '历史纪录与体格检查小节.历史记录' (zh-CN), '历史纪录与体格检查小节.历史记录类' (zh-CN), '历史纪录与体格检查小节.历史记录类别' (zh-CN), '历史纪录与体格检查小节.病史' (zh-CN), '历史纪录与体格检查小节.病史类' (zh-CN), '历史纪录与体格检查小节.病史类别' (zh-CN), '历史纪录与体格检查小节.病史记 历史纪录与体格检查小节 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 病史与体格检查 病院 诊断（Diagnosis，Dx） 院' (zh-CN), '' (zh-CN), 'Hosp' (pt-BR), 'Interpretation' (pt-BR), 'Interp' (pt-BR), 'Impression' (pt-BR), 'Impressions' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Narrative' (pt-BR), 'Report' (pt-BR), 'Diagnosis' (pt-BR), 'Anamnesi Diagnosi di dimissione ospedaliera Impressione/interpretazione di studio paziente Punto nel tempo (episodio)' (it-IT), 'Впечатление/интерпретация исследования Выписка Описательный Точка во времени' (ru-RU), 'Момент' (ru-RU)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "18776-5",
+  "display" : "Plan of treatment"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Plan of care note",
+  "severity" : "warning",
+  "error" : "The display \"Plan of treatment\" is not a valid display for the code {http://loinc.org}18776-5 - should be one of ['Plan of care note', 'Plan of care note', '临床文档型' (zh-CN), '临床文档' (zh-CN), '文档' (zh-CN), '文书' (zh-CN), '医疗文书' (zh-CN), '临床医疗文书 事件发生的地方' (zh-CN), '场景' (zh-CN), '环境' (zh-CN), '背景 医疗服务（照护服务、护理服务、护理、照护、医疗照护、诊疗、诊疗服务、照顾、看护）计划（方案）记录 发现是一个原子型临床观察指标，并不是作为印象的概括陈述。体格检查、病史、系统检查及其他此类观察指标的属性均为发现。它们的标尺对于编码型发现可能是名义型，而对于叙述型文本之中所报告的发现，则可能是叙述型。' (zh-CN), '发现物' (zh-CN), '所见' (zh-CN), '结果' (zh-CN), '结论 文档本体' (zh-CN), '临床文档本体' (zh-CN), '文档本体' (zh-CN), '文书本体' (zh-CN), '医疗文书本体' (zh-CN), '临床医疗文书本体 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 未加明确说明的角色 笔记' (zh-CN), '按语' (zh-CN), '注释' (zh-CN), '说明' (zh-CN), '票据' (zh-CN), '单据' (zh-CN), '证明书' (zh-CN), '' (zh-CN), 'Documentazione dell''ontologia Osservazione Piano di cura Punto nel tempo (episodio) Ruolo non specificato' (it-IT)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "10183-2",
+  "display" : "Hospital discharge medications"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital discharge medications Narrative",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "46241-6",
+  "display" : "Hospital admission diagnosis"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital admission diagnosis Narrative - Reported",
+  "severity" : "warning",
+  "error" : "The display \"Hospital admission diagnosis\" is not a valid display for the code {http://loinc.org}46241-6 - should be one of ['Hospital admission diagnosis Narrative - Reported', 'Hospital admission Dx Reported', 'Dx 医疗服务对象' (zh-CN), '客户' (zh-CN), '病人' (zh-CN), '病患' (zh-CN), '病号' (zh-CN), '超系统 - 病人 印象是一种诊断陈述，始终是对其他某种观察指标的解释或抽象（一系列检验项目结果、一幅图像或者整个某位病人），而且几乎总是由某位专业人员产生。' (zh-CN), '检查印象' (zh-CN), '检查印象/解释' (zh-CN), '检查的印象/解释' (zh-CN), '检查解释' (zh-CN), '解释' (zh-CN), '阐释 历史纪录与体格检查 历史纪录与体格检查.历史记录' (zh-CN), '历史纪录与体格检查.历史记录类' (zh-CN), '历史纪录与体格检查.历史记录类别' (zh-CN), '历史纪录与体格检查.病史' (zh-CN), '历史纪录与体格检查.病史类' (zh-CN), '历史纪录与体格检查.病史类别' (zh-CN), '历史纪录与体格检查.病史记录' (zh-CN), '历史纪录与体格检查.病史记录类' (zh-CN), '历史纪录与体格检查.病史记录类别' (zh-CN), '历史纪录与体格检查小节.历史记录' (zh-CN), '历史纪录与体格检查小节.历史记录类' (zh-CN), '历史纪录与体格检查小节.历史记录类别' (zh-CN), '历史纪录与体格检查小节.病史' (zh-CN), '历史纪录与体格检查小节.病史类' (zh-CN), '历史纪录与体格检查小节.病史类别' (zh-CN), '历史纪录与体格检查小节.病史记 历史纪录与体格检查小节 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 病史与体格检查 病院 诊断（Diagnosis，Dx） 院' (zh-CN), 'Hosp' (pt-BR), 'Interpretation' (pt-BR), 'Interp' (pt-BR), 'Impression' (pt-BR), 'Impressions' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Narrative' (pt-BR), 'Report' (pt-BR), 'Diagnosis' (pt-BR), 'Anamnesi Diagnosi di ricovero ospedaliero' (it-IT), 'Diagnosi di ammis Impressione/interpretazione di studio paziente Punto nel tempo (episodio)' (it-IT), 'Анамнестические сведения' (ru-RU), 'Сообщенная третьим лицом информация Впечатление/интерпретация исследования Диагноз госпитализации Описательный Точка во времени' (ru-RU), 'Момент' (ru-RU), '' (ru-RU)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "42346-7",
+  "display" : "Medications on admission"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Medications on admission (narrative)",
+  "severity" : "warning",
+  "error" : "The display \"Medications on admission\" is not a valid display for the code {http://loinc.org}42346-7 - should be one of ['Medications on admission (narrative)', '', '临床报告信息附件' (zh-CN), '健康保险便携与责任法案信息附件.临床报告 信息附件' (zh-CN), '健康保险便携与责任法案信息附件' (zh-CN), '附件 入院时的处理用药' (zh-CN), '入院时的处理用药物' (zh-CN), '入院时的处理药物' (zh-CN), '入院时的治疗用药' (zh-CN), '入院时的治疗用药物' (zh-CN), '入院时的治疗药物' (zh-CN), '收治入院时的药物 医疗服务对象' (zh-CN), '客户' (zh-CN), '病人' (zh-CN), '病患' (zh-CN), '病号' (zh-CN), '超系统 - 病人 发现是一个原子型临床观察指标，并不是作为印象的概括陈述。体格检查、病史、系统检查及其他此类观察指标的属性均为发现。它们的标尺对于编码型发现可能是名义型，而对于叙述型文本之中所报告的发现，则可能是叙述型。' (zh-CN), '发现物' (zh-CN), '所见' (zh-CN), '结果' (zh-CN), '结论 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 药物类' (zh-CN), '处理用药' (zh-CN), '处理用药物' (zh-CN), '处理药物' (zh-CN), '治疗用药' (zh-CN), '治疗用药物' (zh-CN), '用药' (zh-CN), '药物处理' (zh-CN), '药物治疗' (zh-CN), '治疗药物' (zh-CN), 'Finding' (pt-BR), 'Findings' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Narrative' (pt-BR), 'Report' (pt-BR), 'Allegato Allegato referto clinico Farmaci al momento del ricovero Osservazione paziente Punto nel tempo (episodio)' (it-IT), 'Лекарства Описательный Точка во времени' (ru-RU), 'Момент' (ru-RU)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "46239-0",
+  "display" : "Chief Complaint and Reason for Visit"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Chief complaint+Reason for visit Narrative",
+  "severity" : "warning",
+  "error" : "The display \"Chief Complaint and Reason for Visit\" is not a valid display for the code {http://loinc.org}46239-0 - should be one of ['Chief complaint+Reason for visit Narrative', 'Chief complaint+Reason for visit', '主诉+就诊理由' (zh-CN), '主诉+就医原因' (zh-CN), '主诉+访视原因 关于就诊的理由' (zh-CN), '关于就诊（就医、访视）的原因' (zh-CN), '就诊原因' (zh-CN), '就诊理由' (zh-CN), '就医原因' (zh-CN), '访视原因' (zh-CN), '就医理由' (zh-CN), '访视理由 医疗服务对象' (zh-CN), '客户' (zh-CN), '病人' (zh-CN), '病患' (zh-CN), '病号' (zh-CN), '超系统 - 病人 历史纪录与体格检查 历史纪录与体格检查.历史记录' (zh-CN), '历史纪录与体格检查.历史记录类' (zh-CN), '历史纪录与体格检查.历史记录类别' (zh-CN), '历史纪录与体格检查.病史' (zh-CN), '历史纪录与体格检查.病史类' (zh-CN), '历史纪录与体格检查.病史类别' (zh-CN), '历史纪录与体格检查.病史记录' (zh-CN), '历史纪录与体格检查.病史记录类' (zh-CN), '历史纪录与体格检查.病史记录类别' (zh-CN), '历史纪录与体格检查小节.历史记录' (zh-CN), '历史纪录与体格检查小节.历史记录类' (zh-CN), '历史纪录与体格检查小节.历史记录类别' (zh-CN), '历史纪录与体格检查小节.病史' (zh-CN), '历史纪录与体格检查小节.病史类' (zh-CN), '历史纪录与体格检查小节.病史类别' (zh-CN), '历史纪录与体格检查小节.病史记 历史纪录与体格检查小节 发现是一个原子型临床观察指标，并不是作为印象的概括陈述。体格检查、病史、系统检查及其他此类观察指标的属性均为发现。它们的标尺对于编码型发现可能是名义型，而对于叙述型文本之中所报告的发现，则可能是叙述型。' (zh-CN), '发现物' (zh-CN), '所见' (zh-CN), '结果' (zh-CN), '结论 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 控诉' (zh-CN), '申诉' (zh-CN), '指控' (zh-CN), '不平' (zh-CN), '牢骚' (zh-CN), '委屈' (zh-CN), '意见' (zh-CN), '怨言' (zh-CN), '病痛' (zh-CN), '主诉 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 病史与体格检查' (zh-CN), 'Finding' (pt-BR), 'Findings' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Narrative' (pt-BR), 'Report' (pt-BR), 'Anamnesi Disturbo primario Disturbo primario e Motivo dell''incontro Lamenta Osservazione paziente Punto nel tempo (episodio)' (it-IT), 'Описательный Причина визита Проблема' (ru-RU), 'Заболевание Точка во времени' (ru-RU), 'Момент' (ru-RU), '' (ru-RU)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "10164-2",
+  "display" : "History of Present Illness"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "History of Present illness Narrative",
+  "severity" : "warning",
+  "error" : "The display \"History of Present Illness\" is not a valid display for the code {http://loinc.org}10164-2 - should be one of ['History of Present illness Narrative', 'Hx of Pres illness', '医疗服务对象' (zh-CN), '客户' (zh-CN), '病人' (zh-CN), '病患' (zh-CN), '病号' (zh-CN), '超系统 - 病人 历史' (zh-CN), '史' (zh-CN), '病史 历史纪录与体格检查 历史纪录与体格检查.历史记录' (zh-CN), '历史纪录与体格检查.历史记录类' (zh-CN), '历史纪录与体格检查.历史记录类别' (zh-CN), '历史纪录与体格检查.病史' (zh-CN), '历史纪录与体格检查.病史类' (zh-CN), '历史纪录与体格检查.病史类别' (zh-CN), '历史纪录与体格检查.病史记录' (zh-CN), '历史纪录与体格检查.病史记录类' (zh-CN), '历史纪录与体格检查.病史记录类别' (zh-CN), '历史纪录与体格检查小节.历史记录' (zh-CN), '历史纪录与体格检查小节.历史记录类' (zh-CN), '历史纪录与体格检查小节.历史记录类别' (zh-CN), '历史纪录与体格检查小节.病史' (zh-CN), '历史纪录与体格检查小节.病史类' (zh-CN), '历史纪录与体格检查小节.病史类别' (zh-CN), '历史纪录与体格检查小节.病史记 历史纪录与体格检查小节 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 现病史' (zh-CN), '目前疾病' (zh-CN), '当前疾病' (zh-CN), '现病 病史与体格检查' (zh-CN), '' (zh-CN), 'Anamnesi paziente Punto nel tempo (episodio) Storia' (it-IT), 'Anamnesi' (it-IT), 'anamnese' (nl-NL)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "18841-7",
+  "display" : "Hospital consultations"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital consultations Document",
+  "severity" : "warning",
+  "error" : "The display \"Hospital consultations\" is not a valid display for the code {http://loinc.org}18841-7 - should be one of ['Hospital consultations Document', 'Hospital consultations Doc', '临床文档型' (zh-CN), '临床文档' (zh-CN), '文档' (zh-CN), '文书' (zh-CN), '医疗文书' (zh-CN), '临床医疗文书 医疗服务对象' (zh-CN), '客户' (zh-CN), '病人' (zh-CN), '病患' (zh-CN), '病号' (zh-CN), '超系统 - 病人 医院会诊（咨询、会诊咨询、磋商、商讨会）' (zh-CN), '医院咨询' (zh-CN), '医院磋商' (zh-CN), '医院商讨会 发现是一个原子型临床观察指标，并不是作为印象的概括陈述。体格检查、病史、系统检查及其他此类观察指标的属性均为发现。它们的标尺对于编码型发现可能是名义型，而对于叙述型文本之中所报告的发现，则可能是叙述型。' (zh-CN), '发现物' (zh-CN), '所见' (zh-CN), '结果' (zh-CN), '结论 文档.其他' (zh-CN), '杂项类文档' (zh-CN), '其他文档 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 杂项' (zh-CN), '杂项类' (zh-CN), '杂项试验 病院 院' (zh-CN), '' (zh-CN), 'Hosp' (pt-BR), 'Typ' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Documentazione miscellanea Miscellanea Osservazione paziente Punto nel tempo (episodio)' (it-IT), 'Документ Точка во времени' (ru-RU), 'Момент' (ru-RU)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "10157-6",
+  "display" : "History of family member diseases"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "History of family member diseases Narrative",
+  "severity" : "warning",
+  "error" : "The display \"History of family member diseases\" is not a valid display for the code {http://loinc.org}10157-6 - should be one of ['History of family member diseases Narrative', 'Family member diseases Hx', '历史' (zh-CN), '史' (zh-CN), '病史 历史纪录与体格检查 历史纪录与体格检查.历史记录' (zh-CN), '历史纪录与体格检查.历史记录类' (zh-CN), '历史纪录与体格检查.历史记录类别' (zh-CN), '历史纪录与体格检查.病史' (zh-CN), '历史纪录与体格检查.病史类' (zh-CN), '历史纪录与体格检查.病史类别' (zh-CN), '历史纪录与体格检查.病史记录' (zh-CN), '历史纪录与体格检查.病史记录类' (zh-CN), '历史纪录与体格检查.病史记录类别' (zh-CN), '历史纪录与体格检查小节.历史记录' (zh-CN), '历史纪录与体格检查小节.历史记录类' (zh-CN), '历史纪录与体格检查小节.历史记录类别' (zh-CN), '历史纪录与体格检查小节.病史' (zh-CN), '历史纪录与体格检查小节.病史类' (zh-CN), '历史纪录与体格检查小节.病史类别' (zh-CN), '历史纪录与体格检查小节.病史记 历史纪录与体格检查小节 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 家人' (zh-CN), '家族成员' (zh-CN), '超系统 - 家庭成员 家庭 家族成员病史' (zh-CN), '家属疾病史' (zh-CN), '家属病史' (zh-CN), '家庭成员疾病史' (zh-CN), '家庭成员病史 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 病史与体格检查' (zh-CN), '' (zh-CN), 'Anamnesi Punto nel tempo (episodio) Storia di malattie di membri della famiglia Storia' (it-IT), 'Anamnesi' (it-IT), 'История Описательный Семейный анамнез заболеваний Точка во времени' (ru-RU), 'Момент' (ru-RU), 'anamnese ziekte in familieanamnese' (nl-NL)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "47420-5",
+  "display" : "Functional status"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Functional status assessment note",
+  "severity" : "warning",
+  "error" : "The display \"Functional status\" is not a valid display for the code {http://loinc.org}47420-5 - should be one of ['Functional status assessment note', 'Functional status note', '临床文档型' (zh-CN), '临床文档' (zh-CN), '文档' (zh-CN), '文书' (zh-CN), '医疗文书' (zh-CN), '临床医疗文书 事件发生的地方' (zh-CN), '场景' (zh-CN), '环境' (zh-CN), '背景 功能（机能）状态（状况、情况）（评价、估计、估价、评论、估定、估算）记录' (zh-CN), '功能状况评估记录' (zh-CN), '功能情况评估记录 功能状况' (zh-CN), '功能情况 发现是一个原子型临床观察指标，并不是作为印象的概括陈述。体格检查、病史、系统检查及其他此类观察指标的属性均为发现。它们的标尺对于编码型发现可能是名义型，而对于叙述型文本之中所报告的发现，则可能是叙述型。' (zh-CN), '发现物' (zh-CN), '所见' (zh-CN), '结果' (zh-CN), '结论 文档本体' (zh-CN), '临床文档本体' (zh-CN), '文档本体' (zh-CN), '文书本体' (zh-CN), '医疗文书本体' (zh-CN), '临床医疗文书本体 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 未加明确说明的角色 状况' (zh-CN), '情况 笔记' (zh-CN), '按语' (zh-CN), '注释' (zh-CN), '说明' (zh-CN), '票据' (zh-CN), '单据' (zh-CN), '证明书 评价' (zh-CN), '估计' (zh-CN), '估价' (zh-CN), '评论' (zh-CN), '估定' (zh-CN), '估算' (zh-CN), '' (zh-CN), 'Documentazione dell''ontologia Nota di valutazione dello stato funzionale Osservazione Punto nel tempo (episodio) Ruolo non specificato' (it-IT)] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8653-8",
+  "display" : "Hospital discharge instructions"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital Discharge instructions",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "10184-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital discharge physical findings Narrative",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "11493-4",
+  "display" : "Hospital discharge studies summary"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital discharge studies summary Narrative",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "47519-4",
+  "display" : "History of Procedures Document"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "History of Procedures Document",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8716-3",
+  "display" : "Vital signs"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Vital signs",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "11490-0",
+        "display" : "Physician Discharge summary"
+      },
+      {
+        "code" : "18842-5",
+        "display" : "Discharge summary"
+      },
+      {
+        "code" : "28655-9",
+        "display" : "Attending Discharge summary"
+      },
+      {
+        "code" : "29761-4",
+        "display" : "Dentistry Discharge summary"
+      },
+      {
+        "code" : "34105-7",
+        "display" : "Hospital Discharge summary"
+      },
+      {
+        "code" : "34106-5",
+        "display" : "Physician Hospital Discharge summary"
+      },
+      {
+        "code" : "34745-0",
+        "display" : "Nurse Discharge summary"
+      },
+      {
+        "code" : "57058-0",
+        "display" : "Maternal discharge summary note"
+      },
+      {
+        "code" : "59258-4",
+        "display" : "Emergency department Discharge summary"
+      },
+      {
+        "code" : "59259-2",
+        "display" : "Psychiatry Discharge summary"
+      },
+      {
+        "code" : "68558-6",
+        "display" : "Obstetrics and Gynecology Discharge summary"
+      },
+      {
+        "code" : "68572-7",
+        "display" : "Ophthalmology Discharge summary"
+      },
+      {
+        "code" : "68578-4",
+        "display" : "Orthopaedic surgery Discharge summary"
+      },
+      {
+        "code" : "68591-7",
+        "display" : "Plastic surgery Discharge summary"
+      },
+      {
+        "code" : "68612-1",
+        "display" : "Adolescent medicine Discharge summary"
+      },
+      {
+        "code" : "68626-1",
+        "display" : "Allergy and immunology Discharge summary"
+      },
+      {
+        "code" : "68642-8",
+        "display" : "Child and adolescent psychiatry Discharge summary"
+      },
+      {
+        "code" : "68653-5",
+        "display" : "Clinical genetics Discharge summary"
+      },
+      {
+        "code" : "68663-4",
+        "display" : "Developmental-behavioral pediatrics Discharge summary"
+      },
+      {
+        "code" : "68674-1",
+        "display" : "Multi-specialty program Discharge summary"
+      },
+      {
+        "code" : "68688-1",
+        "display" : "Neurological surgery Discharge summary"
+      },
+      {
+        "code" : "68697-2",
+        "display" : "Neurology with special qualifications in child neurology Discharge summary"
+      },
+      {
+        "code" : "68709-5",
+        "display" : "Pain medicine Discharge summary"
+      },
+      {
+        "code" : "68719-4",
+        "display" : "Pediatric cardiology Discharge summary"
+      },
+      {
+        "code" : "68733-5",
+        "display" : "Pediatric endocrinology Discharge summary"
+      },
+      {
+        "code" : "68738-4",
+        "display" : "Pediatric gastroenterology Discharge summary"
+      },
+      {
+        "code" : "68749-1",
+        "display" : "Pediatric hematology-oncology Discharge summary"
+      },
+      {
+        "code" : "68768-1",
+        "display" : "Pediatric nephrology Discharge summary"
+      },
+      {
+        "code" : "68773-1",
+        "display" : "Pediatric otolaryngology Discharge summary"
+      },
+      {
+        "code" : "68779-8",
+        "display" : "Pediatric pulmonology Discharge summary"
+      },
+      {
+        "code" : "68795-4",
+        "display" : "Pediatric surgery Discharge summary"
+      },
+      {
+        "code" : "68805-1",
+        "display" : "Pediatric urology Discharge summary"
+      },
+      {
+        "code" : "68815-0",
+        "display" : "Pediatrics Discharge summary"
+      },
+      {
+        "code" : "68823-4",
+        "display" : "Pediatrics Hospital Discharge summary"
+      },
+      {
+        "code" : "68831-7",
+        "display" : "Primary care Discharge summary"
+      },
+      {
+        "code" : "68841-6",
+        "display" : "Speech-language pathology Discharge summary"
+      },
+      {
+        "code" : "68856-4",
+        "display" : "Pediatric transplant hepatology Discharge summary"
+      },
+      {
+        "code" : "77409-1",
+        "display" : "Cardiology Discharge summary"
+      },
+      {
+        "code" : "77417-4",
+        "display" : "Critical care medicine Discharge summary"
+      },
+      {
+        "code" : "78263-1",
+        "display" : "Mental health Discharge summary"
+      },
+      {
+        "code" : "78264-9",
+        "display" : "General medicine Discharge summary"
+      },
+      {
+        "code" : "78418-1",
+        "display" : "Neonatal perinatal medicine Discharge summary"
+      },
+      {
+        "code" : "78419-9",
+        "display" : "Nephrology Discharge summary"
+      },
+      {
+        "code" : "78420-7",
+        "display" : "Neurology Discharge summary"
+      },
+      {
+        "code" : "78421-5",
+        "display" : "Oncology Discharge summary"
+      },
+      {
+        "code" : "78585-7",
+        "display" : "Palliative care Discharge summary"
+      },
+      {
+        "code" : "80811-3",
+        "display" : "Geriatric medicine Discharge summary"
+      },
+      {
+        "code" : "83523-1",
+        "display" : "Cardiology Intensive care unit Discharge summary"
+      },
+      {
+        "code" : "83551-2",
+        "display" : "Nurse practitioner Discharge summary"
+      },
+      {
+        "code" : "83712-0",
+        "display" : "Physical medicine and rehab Discharge summary"
+      },
+      {
+        "code" : "83810-2",
+        "display" : "Physician assistant Discharge summary"
+      },
+      {
+        "code" : "83898-7",
+        "display" : "Psychology Discharge summary"
+      },
+      {
+        "code" : "83921-7",
+        "display" : "Recreational therapy Discharge summary"
+      },
+      {
+        "code" : "83932-4",
+        "display" : "Research Discharge summary"
+      },
+      {
+        "code" : "83956-3",
+        "display" : "Social worker Discharge summary"
+      },
+      {
+        "code" : "83961-3",
+        "display" : "Social worker Patient's home Discharge summary"
+      },
+      {
+        "code" : "83968-8",
+        "display" : "Social worker Long term care facility Discharge summary"
+      },
+      {
+        "code" : "83993-6",
+        "display" : "Spinal cord injury medicine Discharge summary"
+      },
+      {
+        "code" : "84013-2",
+        "display" : "Surgery Intensive care unit Discharge summary"
+      },
+      {
+        "code" : "84017-3",
+        "display" : "Surgery Discharge summary"
+      },
+      {
+        "code" : "84018-1",
+        "display" : "Surgery Outpatient Discharge summary"
+      },
+      {
+        "code" : "84024-9",
+        "display" : "Team Discharge summary"
+      },
+      {
+        "code" : "84040-5",
+        "display" : "Urology Discharge summary"
+      },
+      {
+        "code" : "84132-0",
+        "display" : "Primary care Patient's home Discharge summary"
+      },
+      {
+        "code" : "84139-5",
+        "display" : "Hematology+Medical oncology Discharge summary"
+      },
+      {
+        "code" : "84179-1",
+        "display" : "Kinesiotherapy Discharge summary"
+      },
+      {
+        "code" : "84248-4",
+        "display" : "Nurse Emergency department Discharge summary"
+      },
+      {
+        "code" : "84254-2",
+        "display" : "Nurse Hospital Discharge summary"
+      },
+      {
+        "code" : "84257-5",
+        "display" : "Nurse Long term care facility Discharge summary"
+      },
+      {
+        "code" : "84262-5",
+        "display" : "Nurse Observation unit Discharge summary"
+      },
+      {
+        "code" : "84278-1",
+        "display" : "Nutrition and dietetics Discharge summary"
+      },
+      {
+        "code" : "84310-2",
+        "display" : "Vocational rehabilitation Discharge summary"
+      },
+      {
+        "code" : "84321-9",
+        "display" : "Physical therapy Outpatient Discharge summary"
+      },
+      {
+        "code" : "84328-4",
+        "display" : "Physical therapy Hospital Discharge summary"
+      },
+      {
+        "code" : "84331-8",
+        "display" : "Physical therapy Discharge summary"
+      },
+      {
+        "code" : "84367-2",
+        "display" : "Otolaryngology Discharge summary"
+      },
+      {
+        "code" : "84393-8",
+        "display" : "Occupational therapy Discharge summary"
+      },
+      {
+        "code" : "85154-3",
+        "display" : "Pharmacology Discharge summary"
+      },
+      {
+        "code" : "85176-6",
+        "display" : "Custodial care facility Discharge summary"
+      },
+      {
+        "code" : "85192-3",
+        "display" : "Long term care facility Discharge summary"
+      },
+      {
+        "code" : "85200-4",
+        "display" : "Observation unit Discharge summary"
+      },
+      {
+        "code" : "85223-6",
+        "display" : "Case manager Discharge summary"
+      },
+      {
+        "code" : "85240-0",
+        "display" : "Internal medicine Intensive care unit Discharge summary"
+      },
+      {
+        "code" : "85243-4",
+        "display" : "Internal medicine Discharge summary"
+      },
+      {
+        "code" : "85433-1",
+        "display" : "Respiratory therapy Discharge summary"
+      },
+      {
+        "code" : "85434-9",
+        "display" : "Rheumatology Discharge summary"
+      },
+      {
+        "code" : "85440-6",
+        "display" : "Vascular surgery Discharge summary"
+      },
+      {
+        "code" : "85442-2",
+        "display" : "Hematology Discharge summary"
+      },
+      {
+        "code" : "85514-8",
+        "display" : "Bariatric surgery Discharge summary"
+      },
+      {
+        "code" : "85520-5",
+        "display" : "Child and adolescent psychology Discharge summary"
+      },
+      {
+        "code" : "85849-8",
+        "display" : "Anesthesiology Recovery room Discharge summary"
+      },
+      {
+        "code" : "85875-3",
+        "display" : "Nurse Recovery room Discharge summary"
+      },
+      {
+        "code" : "85878-7",
+        "display" : "Neuropsychology Discharge summary"
+      },
+      {
+        "code" : "87235-8",
+        "display" : "Dialysis Discharge summary"
+      },
+      {
+        "code" : "87256-4",
+        "display" : "Addiction medicine Discharge summary"
+      },
+      {
+        "code" : "88641-6",
+        "display" : "Community health care Adult day care center Discharge summary"
+      },
+      {
+        "code" : "88645-7",
+        "display" : "Outpatient hospital Discharge summary"
+      },
+      {
+        "code" : "88693-7",
+        "display" : "Patient's home Discharge summary"
+      },
+      {
+        "code" : "89214-1",
+        "display" : "Obstetrics Discharge summary"
+      },
+      {
+        "code" : "89218-2",
+        "display" : "Gynecology Discharge summary"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:da4e2730-3525-49d9-9a5d-957bc5743304",
+    "timestamp" : "2021-11-09T09:57:13.089Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.71"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "11490-0",
+      "display" : "Physician Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "18842-5",
+      "display" : "Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "28655-9",
+      "display" : "Attending Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "29761-4",
+      "display" : "Dentistry Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "34105-7",
+      "display" : "Hospital Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "34106-5",
+      "display" : "Physician Hospital Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "34745-0",
+      "display" : "Nurse Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "57058-0",
+      "display" : "Deprecated Maternal discharge summary note"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "59258-4",
+      "display" : "Emergency department Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "59259-2",
+      "display" : "Psychiatry Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68558-6",
+      "display" : "Obstetrics and Gynecology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68572-7",
+      "display" : "Ophthalmology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68578-4",
+      "display" : "Orthopaedic surgery Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68591-7",
+      "display" : "Plastic surgery Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68612-1",
+      "display" : "Adolescent medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68626-1",
+      "display" : "Allergy and Immunology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68642-8",
+      "display" : "Child and adolescent psychiatry Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68653-5",
+      "display" : "Clinical genetics Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68663-4",
+      "display" : "Developmental-behavioral pediatrics Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68674-1",
+      "display" : "Multi-specialty program Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68688-1",
+      "display" : "Neurological surgery Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68697-2",
+      "display" : "Neurology with special qualifications in child neurology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68709-5",
+      "display" : "Pain medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68719-4",
+      "display" : "Pediatric cardiology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68733-5",
+      "display" : "Pediatric endocrinology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68738-4",
+      "display" : "Pediatric gastroenterology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68749-1",
+      "display" : "Pediatric hematology-oncology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68768-1",
+      "display" : "Pediatric nephrology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68773-1",
+      "display" : "Pediatric otolaryngology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68779-8",
+      "display" : "Pediatric pulmonology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68795-4",
+      "display" : "Pediatric surgery Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68805-1",
+      "display" : "Pediatric urology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68815-0",
+      "display" : "Pediatrics Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68823-4",
+      "display" : "Pediatrics Hospital Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68831-7",
+      "display" : "Primary care Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68841-6",
+      "display" : "Speech-language pathology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "68856-4",
+      "display" : "Pediatric transplant hepatology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77409-1",
+      "display" : "Cardiology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77417-4",
+      "display" : "Critical care medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "78263-1",
+      "display" : "Mental health Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "78264-9",
+      "display" : "General medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "78418-1",
+      "display" : "Neonatal perinatal medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "78419-9",
+      "display" : "Nephrology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "78420-7",
+      "display" : "Neurology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "78421-5",
+      "display" : "Oncology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "78585-7",
+      "display" : "Palliative care Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "80811-3",
+      "display" : "Geriatric medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83523-1",
+      "display" : "Cardiology Intensive care unit Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83551-2",
+      "display" : "Nurse practitioner Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83712-0",
+      "display" : "Physical medicine and rehab Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83810-2",
+      "display" : "Physician assistant Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83898-7",
+      "display" : "Psychology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83921-7",
+      "display" : "Recreational therapy Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83932-4",
+      "display" : "Research Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83956-3",
+      "display" : "Social worker Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83961-3",
+      "display" : "Social worker Patient's home Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83968-8",
+      "display" : "Social worker Long term care facility Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "83993-6",
+      "display" : "Spinal cord injury medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84013-2",
+      "display" : "Surgery Intensive care unit Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84017-3",
+      "display" : "Surgery Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84018-1",
+      "display" : "Surgery Outpatient Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84024-9",
+      "display" : "Team Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84040-5",
+      "display" : "Urology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84132-0",
+      "display" : "Primary care Patient's home Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84139-5",
+      "display" : "Hematology+Medical oncology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84179-1",
+      "display" : "Kinesiotherapy Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84248-4",
+      "display" : "Nurse Emergency department Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84254-2",
+      "display" : "Nurse Hospital Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84257-5",
+      "display" : "Nurse Long term care facility Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84262-5",
+      "display" : "Nurse Observation unit Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84278-1",
+      "display" : "Nutrition and dietetics Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84310-2",
+      "display" : "Vocational rehabilitation Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84321-9",
+      "display" : "Physical therapy Outpatient Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84328-4",
+      "display" : "Physical therapy Hospital Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84331-8",
+      "display" : "Physical therapy Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84367-2",
+      "display" : "Otolaryngology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84393-8",
+      "display" : "Occupational therapy Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85154-3",
+      "display" : "Pharmacology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85176-6",
+      "display" : "Custodial care facility Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85192-3",
+      "display" : "Long term care facility Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85200-4",
+      "display" : "Observation unit Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85223-6",
+      "display" : "Case manager Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85240-0",
+      "display" : "Internal medicine Intensive care unit Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85243-4",
+      "display" : "Internal medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85433-1",
+      "display" : "Respiratory therapy Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85434-9",
+      "display" : "Rheumatology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85440-6",
+      "display" : "Vascular surgery Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85442-2",
+      "display" : "Hematology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85514-8",
+      "display" : "Bariatric surgery Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85520-5",
+      "display" : "Child and adolescent psychology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85849-8",
+      "display" : "Anesthesiology Recovery room Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85875-3",
+      "display" : "Nurse Recovery room Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85878-7",
+      "display" : "Neuropsychology Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "87235-8",
+      "display" : "Dialysis Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "87256-4",
+      "display" : "Addiction medicine Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "88641-6",
+      "display" : "Community health care Adult day care center Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "88645-7",
+      "display" : "Outpatient hospital Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "88693-7",
+      "display" : "Patient's home Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "89214-1",
+      "display" : "Obstetrics Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "89218-2",
+      "display" : "Gynecology Discharge summary"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
